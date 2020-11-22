@@ -1,0 +1,18 @@
+Package: fkpde
+Type: Package
+Title: PDE solver for Feynman-Kac problems
+Version: 1.0
+Date: 2020-11-21
+Author: S. Hill
+Maintainer: S. Hill <52792611+shill1729@users.noreply.github.com>
+Description: Numerical solvers of parabolic PDEs from Feynman-Kac connections.
+    Methods include explicit, implicit, and Crank-Nicholson schemes and implementations
+    in both R and c++.
+License: GPL-3
+Imports:
+    ggplot2,
+    gganimate,
+    Rcpp
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
+Encoding: UTF-8
